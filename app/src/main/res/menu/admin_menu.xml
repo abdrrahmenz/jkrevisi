@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_profil"
+        android:visible="true"
+        app:showAsAction="never"
+        android:title="Profil Admin"/>
+
+    <item android:id="@+id/menu_change_pass"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Change Password" />
+
+    <item android:id="@+id/menu_logout"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Logout" />
+</menu>

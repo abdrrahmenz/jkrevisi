@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/minimum_space_between_views"
+    android:background="@drawable/rounded_style">
+
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fullname :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:paddingLeft="@dimen/minimum_space_between_views"
+        android:paddingRight="@dimen/minimum_space_between_views"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:paddingLeft="@dimen/minimum_space_between_views"
+        android:paddingRight="@dimen/minimum_space_between_views"
+        android:layout_marginTop="10dp"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/minimum_space_between_views"
+    android:paddingRight="@dimen/minimum_space_between_views"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/minimum_space_between_views"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="Password :"
+        />
+
+    <ImageButton
+        android:id="@+id/show_pass"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_show"/>
+
+    <ImageButton
+        android:id="@+id/hide_pass"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_hide"/>
+</LinearLayout>
+</LinearLayout>
+</RelativeLayout>

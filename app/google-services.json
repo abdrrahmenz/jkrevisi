@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "937326540639",
+    "firebase_url": "https://jadwalkajian-6e3c5.firebaseio.com",
+    "project_id": "jadwalkajian-6e3c5",
+    "storage_bucket": "jadwalkajian-6e3c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937326540639:android:e1ba18742b6c80b1",
+        "android_client_info": {
+          "package_name": "id.or.qodr.jadwalkajian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937326540639-re3184c9qn6dc5o3udmagbq9bn7p600b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.or.qodr.jadwalkajian",
+            "certificate_hash": "d8506526d39dbf5749a127b2d77ce975508c9684"
+          }
+        },
+        {
+          "client_id": "937326540639-6jbpvmod3pj59tuv89ko7osrj6gdreio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCccaDHb5U5Tc5GqhbFfEiuQmV01_iEABY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937326540639-6jbpvmod3pj59tuv89ko7osrj6gdreio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
